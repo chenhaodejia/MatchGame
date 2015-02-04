@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 此xml用于定义SingleActiviity的布局 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10px"
+    android:background="@drawable/background03"
+    >
+<TextView
+    android:id="@+id/RollText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+     
+
+    
+<ImageButton
+    android:id="@+id/exit"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:background="#00000000"
+    ></ImageButton>
+<ImageButton
+    android:id="@+id/about"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_toRightOf="@id/exit"
+    android:layout_alignParentBottom="true"
+    android:background="#00000000"
+    ></ImageButton>
+<ImageButton
+    android:id="@+id/set"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_toRightOf="@id/about"
+    android:layout_alignParentBottom="true"
+    android:background="#00000000"
+    ></ImageButton>
+
+
+<ImageView  
+	android:id="@+id/imagenum"
+    android:src="@drawable/num" 
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:layout_below="@id/RollText" 
+	android:layout_toRightOf="@id/set"
+	android:background="#00000000"
+	>
+</ImageView>
+    
+
+
+<ImageButton 
+    android:id="@+id/begin"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_toRightOf="@id/exit"
+    android:layout_below="@id/RollText"
+    android:background="#00000000"
+
+/>  
+
+
+  
+<ImageButton 
+    android:id="@+id/progressRate"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_alignParentRight ="true"
+    android:layout_marginRight="50px"
+    android:padding="20px"
+    android:background="#00000000"
+/>     
+    
+    
+    </RelativeLayout>

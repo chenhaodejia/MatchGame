@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, QiluGameActivity!</string>
+    <string name="app_name">智力火柴</string>
+    <string name="RollText">西北师大物电学院语音技术实验室欢迎您的使用！</string>
+</resources>

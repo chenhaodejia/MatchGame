@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:background="@drawable/bg"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <Spinner android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:id="@+id/spinner1"></Spinner>
+    <TextView android:textColor="#000000"    
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="   已玩游戏：" 
+        android:id="@+id/textView1"></TextView>
+    <TextView android:textColor="#000000"
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="   已胜游戏：" 
+    android:id="@+id/textView2"></TextView>
+    <TextView android:textColor="#000000" 
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="   获胜率：" 
+        android:id="@+id/textView3"></TextView>
+    <TextView android:textColor="#000000" 
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="" android:id="@+id/textView4"></TextView>
+    <TextView android:textColor="#000000" 
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="   最多连胜：" 
+        android:id="@+id/textView5"></TextView>
+    <TextView android:textColor="#000000" 
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="   最多连败：" 
+        android:id="@+id/textView6"></TextView>
+   
+    <LinearLayout android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:id="@+id/linearLayout1">
+        <TextView android:text="" 
+            android:id="@+id/textView8" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"></TextView>
+        <ImageButton android:id="@+id/clear" 
+            android:text="" 
+            android:layout_height="wrap_content" 
+            android:layout_width="wrap_content"
+            android:background="#00000000"></ImageButton>
+    </LinearLayout>
+  
+</LinearLayout>
